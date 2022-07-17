@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Studying Timer</title>
+</head>
+<body>
+    <div class="container">
+        <!-- timer input start -->
+        <div id="timer-inputs">
+            <div class="study-hours input-box">
+                <label for="study-hours-input">How many hours do you want to study today?</label>
+                <input type="text" id="study-hours-input">
+            </div>
+            <div class="interval-minuts input-box">
+                <label for="interval-minuts-input">How many minutes for each study interval?</label>
+                <input type="text" id="interval-minuts-input">
+            </div>
+            <div class="short-break-minuts input-box">
+                <label for="short-break-minuts-input">How many minutes for each small break?</label>
+                <input type="text" id="short-break-minuts-input">
+            </div>
+            <div class="long-break-minuts input-box">
+                <label for="long-break-minuts-input">How many minutes for a big break?</label>
+                <input type="text" id="long-break-minuts-input">
+            </div>
+            <button id="start">Start</button>
+        </div>
+        <!-- timer input end -->
+
+        <!-- timer box start -->
+        <div class="timer-box">
+            <div id="hours"></div>
+            <div id="minutes"></div>
+            <div id="seconds"></div>
+        </div>
+        <!-- timer box end -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
